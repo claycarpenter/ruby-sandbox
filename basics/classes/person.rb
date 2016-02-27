@@ -1,3 +1,6 @@
+
+require 'pry'
+
 class Person
   def initialize(name, age)
     @name = name
@@ -28,3 +31,5 @@ class PersonAttr
     @age = age
   end
 end
+
+binding.pry
